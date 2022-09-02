@@ -50,7 +50,15 @@ const Footer = () => {
         </div>
         <div className="app__footer-card">
           <img src={images.github} alt="github" />
-          <a href="https://github.com/KnightTaa" className="p-text">https://github.com/KnightTaa</a>
+          <a href="https://github.com/KnightTaa" className="p-text">GitHub</a>
+        </div>
+        <div className="app__footer-card">
+          <img src={images.facebook} alt="github" />
+          <a href="https://www.facebook.com/tharaka.piyumal" className="p-text">Facebook</a>
+        </div>
+        <div className="app__footer-card">
+          <img src={images.linkedin} alt="github" />
+          <a href="https://www.linkedin.com/in/hasitha-tharaka-261b10165/" className="p-text">Linkedin</a>
         </div>
       </div>
       {!isFormSubmitted ? (
